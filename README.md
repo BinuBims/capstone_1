@@ -59,6 +59,8 @@ The data on spread of Covid-19 in South Korea came from Korea Centers for Diseas
  
 ## EDA Workflow
 
+### Hypothesis Testing
+
 1.  This study is meant to determine if Covid-19 affects women and men differently. I stated my null and alternative hypothesis below.
 ```
 H0: Covid-19 affects on men and women are the same.
