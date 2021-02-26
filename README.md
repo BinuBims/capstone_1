@@ -13,4 +13,8 @@ The questions that this study will focus on are:
  * Does Covid-19 affect Women and Men Differently? If yes, how significant?
  * what age groups are most vulnerable? can we use those findings to predict future? If yes, how accurate?
  * what age group are most likely to contract the virus?
- * How likely to spread Covid-19 under different weather conditions?
+ * How likely to spread Covid-19 under different weather conditions?  
+ 
+ ## Raw Data
+
+The data on spread of Covid-19 in South Korea came from Korea Centers for Disease Control & Prevention (http://www.cdc.go.kr/index.es?sid=a2). Then, the data was modified and put it on Kaggle (https://www.kaggle.com/kimjihoo/coronavirusdataset) for study purpose. This is where the data for this project came from. All census data is included in the data folder. 
