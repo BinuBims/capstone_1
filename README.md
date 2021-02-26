@@ -113,7 +113,7 @@ Result: Ttest_indResult(statistic=-17.481890764228474, pvalue=1.0831493925030636
 3. By runing the bootsrap hypothesis test, I was able to state that I am 95% confident, death rate for people in 80s lies between .197 and .220. I googled to find out that my experimental data match with real time data. According to bmj (https://www.bmj.com/content/369/bmj.m1327), the actual death rate percentage of people in 80s is about 18%
 
 <p align="center">
-<img src="Data/img/bootstrapvssample.png"  height="400" width="600" />
+<img src="Data/img/bootsrapvssample.png"  height="400" width="600" />
 </p>
 
 
