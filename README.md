@@ -125,4 +125,4 @@ I wanted to see if there is a correlation between specific weather conditions an
 <p align="center">
 <img src="Data/img/heatmap.png"  height="400" width="600" />
 </p>
-**conclusion** I was actually hoping to find out that there is a relationship between average temperature in each province and confirmed cases because study has shown that virus spread through air. Surprisingly, I could not find anything, but precipitation is negatively correlated with number cases.  
+**conclusion**: I was actually hoping to find out that there is a relationship between average temperature in each province and confirmed cases because study has shown that virus spread through air. Surprisingly, I could not find anything, but precipitation is negatively correlated with number of confirmed cases. What does this mean? More rain, less confirmed cases. I assume that when there is no rain, people tend to limit outdoor activities which means they are less likely to get exposed to virus. Interesting!!!. The rain has come to rescue the world.
