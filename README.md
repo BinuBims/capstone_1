@@ -116,8 +116,13 @@ Result: Ttest_indResult(statistic=-17.481890764228474, pvalue=1.0831493925030636
 <img src="Data/img/bootsrapvssample.png"  height="400" width="600" />
 </p>
 
-4. **conclusion**: I am kind of dissapointed to see the actual percentage does not lie between within my experimental confident interval. But there are reasons. One could be that this data is represent a time series which can be changed time to time. For example, when we first heard about covid, we were not that prepared and we barely new anything new about the desease. As the virus has been around almost two years, we had time to be preapared and slow the spread and slow the death rate. That might be the reason why the actual data is different from the S.Korean data.
+4. **conclusion**: I am kind of dissapointed to see the actual percentage does not lie between within my experimental confident interval. But there are reasons. One could be that this data is part of a time series which can be changed time to time. For example, when we first heard about covid, we were not that prepared and we barely new anything new about the desease. As the virus has been around almost two years, we had more time to be preapared and slow the spread and slow the death rate. That might be the reason why the actual data is different from the S.Korean data.
 
 ### Correlation
 
+I wanted to see if there is a correlation between specific weather conditions and number of confirmed cases.
+
+<p align="center">
+<img src="Data/img/heatmap.png"  height="400" width="600" />
+</p>
 
