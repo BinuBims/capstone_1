@@ -1,3 +1,1 @@
-
-![GitHub Logo](/data/img/logo.png)
-Format: ![Alt Text](url)
+![Alt text](data/img/newplot.png?raw=true "Title")
