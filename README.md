@@ -69,6 +69,9 @@ HA: Covid-19 affects on men and women are different.
 
 <p align="left">
 <img src="Data/img/distribution of male.png"  height="200" width="300" />
+<p align="right">
+<img src="Data/img/distribution of female.png"  height="200" width="300" />
+</p>
 </p>
 
 <p align="right">
