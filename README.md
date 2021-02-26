@@ -64,13 +64,7 @@ The data on spread of Covid-19 in South Korea came from Korea Centers for Diseas
 H0: Covid-19 affects on men and women are the same.
 HA: Covid-19 affects on men and women are different.
 ```
-
-
-<p align="center">
-<img src="Figures/Staff_Infected_by_Industry.png"  height="400" width="600" />
-</p>
-
-2. Then, I wanted to see the covid-19 distribution within each gener group 
+2. Then, I wanted to see the covid-19 distribution within each gender group 
 
 
 <p align="left">
@@ -78,6 +72,6 @@ HA: Covid-19 affects on men and women are different.
 </p>
 
 <p align="right">
-<img src="Data?img?distribution of female.png"  height="200" width="300" />
+<img src="Data/img/distribution of female.png"  height="200" width="300" />
 </p>
 
