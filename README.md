@@ -80,4 +80,8 @@ HA: Covid-19 affects on men and women are different.
 code  : stats.ttest_ind(male_cat.confirmed,female_cat.confirmed)
 Result: Ttest_indResult(statistic=-17.481890764228474, pvalue=1.0831493925030636e-44).
 ```
+4. As you can see, pvalue is significantly low in this case. That means we can reject the null hypothesis. In other word, Covid-19 affects men and women differently. But I wanted to visulaize T-statistic and see where significantly low pvalue lies.
 
+<p align="center">
+<img src="Data/img/pvalregion.png"  height="400" width="600" />
+</p>
