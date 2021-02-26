@@ -67,14 +67,11 @@ HA: Covid-19 affects on men and women are different.
 2. Then, I wanted to see the covid-19 distribution within each gender group 
 
 
-<p align="left">
-<img src="Data/img/distribution of male.png"  height="200" width="300" />
-<p align="right">
-<img src="Data/img/distribution of female.png"  height="200" width="300" />
-</p>
+<p align="center">
+<img src="Data/img/distribution of male.png"  height="400" width="600" />
 </p>
 
-<p align="right">
-<img src="Data/img/distribution of female.png"  height="200" width="300" />
+<p align="center">
+<img src="Data/img/distribution of female.png"  height="400" width="600" />
 </p>
 
