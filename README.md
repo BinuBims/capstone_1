@@ -10,7 +10,7 @@ The COVID-19 pandemic in South Korea is part of the worldwide pandemic of Covid-
 
 The questions that this study will focus on are:
 
- * Does Covid-19 affect Women and Men Differently? If yes, how significant?
+ * Does Covid-19 affect women and men Differently? If yes, how significant?
  * what age groups are most vulnerable? can we use those findings to predict future? If yes, how accurate?
  * what age group are most likely to contract the virus?
  * How likely to spread Covid-19 under different weather conditions?  
@@ -55,4 +55,29 @@ The data on spread of Covid-19 in South Korea came from Korea Centers for Diseas
  |-----|-------|------|--------|-----------|------|
  |Busan|156|15.16|1.9|6.4|62.8|
  |Chungcheongbuk-do|60|11.9|1.25|3.9|64.89|
+ 
+ 
+## EDA Workflow
+
+1.  This study is meant to determine if Covid-19 affects women and men differently. I stated my null and alternative hypothesis below.
+```
+H0: Covid-19 affects on men and women are the same.
+HA: Covid-19 affects on men and women are different.
+```
+
+
+<p align="center">
+<img src="Figures/Staff_Infected_by_Industry.png"  height="400" width="600" />
+</p>
+
+2. Then, I wanted to see the covid-19 distribution within each gener group 
+
+
+<p align="left">
+<img src="Data/img/distribution of male.png"  height="200" width="300" />
+</p>
+
+<p align="right">
+<img src="Data?img?distribution of female.png"  height="200" width="300" />
+</p>
 
