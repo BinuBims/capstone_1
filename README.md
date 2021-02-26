@@ -30,3 +30,29 @@ The data on spread of Covid-19 in South Korea came from Korea Centers for Diseas
 |37.508163|126.884387|
 |37.546061|126.874209|
 |37.679422|127.044374|
+
+2. The gender data set was seperated into two small data sets for work purpose because both male and female were stored in raws rather than columns.
+
+3. Data set age had to be grouped by different age groups. Then, I filtered out confirmed and deceased cases related to age group 80s. Those data columns were used to creat a new data column to determine death rate of each group. what I found was surprising.  
+
+
+|age|confirmed|deceased|deathrate|
+|-----|--------|-----|----------|
+|0s|16107|0|0|
+|10s|	68752	|0	|0.000000|
+|20s|	345827|	0|	0.000000|
+|30s|	137539	|194	|0.001411|
+|40s	|168250	|295	|0.001753|
+|50s	|230030	|1537	|0.006682|
+|60s	|158505	|3743	|0.023614|
+|70s	|82107	|7599	|0.092550|
+|80s	|54086	|12136	|0.224383|
+
+
+4. The weather data set was grouped by different province in S.Korea, and decided to create a new data frame that includes average weather conditions for each province. Then, I decided to combine that new dataframe with average cases in each province.
+
+	|province|confirmed|	avg_temp|	precipitation|	max_wind_speed|	avg_relative_humidity|
+ |..........|........|.........|................|............|......................|
+ |Busan|156|15.16|1.9|6.4|62.8|
+ |Chungcheongbuk-do|60|11.9|1.25|3.9|64.89
+
