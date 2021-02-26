@@ -52,7 +52,7 @@ The data on spread of Covid-19 in South Korea came from Korea Centers for Diseas
 4. The weather data set was grouped by different province in S.Korea, and decided to create a new data frame that includes average weather conditions for each province. Then, I decided to combine that new dataframe with average cases in each province.
 
  |province|confirmed|	avg_temp|	precipitation|	max_wind_speed|	avg_relative_humidity|
- |..........|........|.........|................|............|......................|
+ |-----|-------|------|--------|-----------|------|
  |Busan|156|15.16|1.9|6.4|62.8|
  |Chungcheongbuk-do|60|11.9|1.25|3.9|64.89|
 
