@@ -87,3 +87,33 @@ Result: Ttest_indResult(statistic=-17.481890764228474, pvalue=1.0831493925030636
 <p align="center">
 <img src="Data/img/pvalregion.png"  height="400" width="600" />
 </p>
+
+
+<p align="center">
+<img src="Data/img/genderdifference.png"  height="400" width="600" />
+</p>
+
+
+5. **conclusion**: There is a clear difference between genders, and who is more likely contract the virus. WHY? some of my thoughts are a lot of women work in healthcare field and there are more likely to expose to the virus and contract it compare to men. I would love to do a study on what percentage of women in South Korea work in healthcare field.
+
+### Bootstraping
+
+1. In this study, I wanted to see how accurate I can predicted the future by using the given data. I was looking at the death rate related to each age group, and I was surprising to see the outcome. People fall into 80-90 age category, about 20% of them had passed away. 
+
+<p align="center">
+<img src="Data/img/deathratevsage.png"  height="400" width="600" />
+</p>
+
+2. Then, I decided run a bootsrap hypothesis test to determine death rate of people in 80s all around the world.
+
+<p align="center">
+<img src="Data/img/bootstrap.png"  height="400" width="600" />
+</p>
+
+3. By runing the bootsrap hypothesis test, I was able to state that I am 95% confident, death rate for people in 80s lies between .197 and .220. I googled to find out that my experimental data match with real time data. According to bmj (https://www.bmj.com/content/369/bmj.m1327), the actual death rate percentage of people in 80s is about 18%
+
+<p align="center">
+<img src="Data/img/bootstrapvssample.png"  height="400" width="600" />
+</p>
+
+
