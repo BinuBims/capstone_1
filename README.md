@@ -64,7 +64,7 @@ The data on spread of Covid-19 in South Korea came from Korea Centers for Diseas
 H0: Covid-19 affects on men and women are the same.
 HA: Covid-19 affects on men and women are different.
 ```
-2. Then, I wanted to see the covid-19 distribution within each gender group 
+2. First thing first, I decided to get a sense of covid-19 distribution within each gender group.  
 
 
 <p align="center">
@@ -74,4 +74,10 @@ HA: Covid-19 affects on men and women are different.
 <p align="center">
 <img src="Data/img/distribution of female.png"  height="400" width="600" />
 </p>
+
+3. The results are surpricing. There is a big different between each gender group, but wait... Is this enough information to confirm that the difference is significant? Since, mean and std can be calculated using given data, I decided to run a T-test on each gender group.
+```
+code  : stats.ttest_ind(male_cat.confirmed,female_cat.confirmed)
+Result: Ttest_indResult(statistic=-17.481890764228474, pvalue=1.0831493925030636e-44).
+```
 
