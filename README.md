@@ -49,12 +49,6 @@ The data on spread of Covid-19 in South Korea came from Korea Centers for Diseas
 |80s	|54086	|12136	|0.224383|
 
 
-<p align="center">
-<img src="Data/img/deathratevsage.png"  height="400" width="600" />
-</p>
-
-
-
 4. The weather data set was grouped by different province in S.Korea, and decided to create a new data frame that includes average weather conditions for each province. Then, I decided to combine that new dataframe with average cases in each province. The table contains information about 17 provinces.
 
  |province|confirmed|	avg_temp|	precipitation|	max_wind_speed|	avg_relative_humidity|
@@ -105,6 +99,11 @@ Result: Ttest_indResult(statistic=-17.481890764228474, pvalue=1.0831493925030636
 ### Bootstraping
 
 1. In this study, I wanted to see how accurate I can predicted the future by using the given data. I was looking at the death rate related to each age group, and I was surprising to see the outcome. People fall into 80-90 age category, about 20% of them had passed away. 
+
+<p align="center">
+<img src="Data/img/deathratevsage.png"  height="400" width="600" />
+</p>
+
 
 2. Then, I decided run a bootsrap hypothesis test to determine death rate of people in 80s all around the world.
 
